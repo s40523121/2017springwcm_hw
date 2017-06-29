@@ -33,35 +33,37 @@
 <v t="yen.20170108171733.11" a="E"><vh>body</vh>
 <v t="yen.20170108171733.12" a="E"><vh>reveal div</vh>
 <v t="yen.20170108171733.13" a="E"><vh>slides div</vh>
-<v t="yen.20170108171733.14" a="E"><vh>封面投影片</vh>
-<v t="yen.20170108171733.15"><vh>封面投影片內容</vh></v>
+<v t="leo.20170629015324.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170629015324.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="yen.20170108171733.16" a="E"><vh>機械設計</vh>
-<v t="yen.20170108171733.17"><vh>機械設計</vh></v>
+<v t="leo.20170629015345.1" a="E"><vh>目錄</vh>
+<v t="leo.20170629015345.2"><vh>目錄</vh></v>
 </v>
-<v t="leo.20170622222724.1" a="E"><vh>網際內容管理</vh>
-<v t="leo.20170622222724.2"><vh>這學期用的東西</vh></v>
+<v t="leo.20170629015356.1" a="E"><vh>機械設計是什麼？</vh>
+<v t="leo.20170629015356.2"><vh>機械設計是什麼？</vh></v>
 </v>
-<v t="leo.20170622230514.1" a="E"><vh>cmsimfly</vh>
-<v t="leo.20170622230514.2"><vh>cmsimfly</vh></v>
+<v t="leo.20170629015404.1" a="E"><vh>網路線</vh>
+<v t="leo.20170629015404.2"><vh>網路線</vh></v>
 </v>
-<v t="leo.20170622230526.1" a="E"><vh>cmsimply</vh>
-<v t="leo.20170622230526.2"><vh>cmsimply</vh></v>
+<v t="leo.20170629015415.1"><vh>CMS</vh>
+<v t="leo.20170629015415.2" a="E"><vh>CMS介紹</vh>
+<v t="leo.20170629015415.3"><vh>CMS</vh></v>
 </v>
-<v t="leo.20170622230528.1" a="E"><vh>內容管理系統</vh>
-<v t="leo.20170622230528.2"><vh>CMS</vh></v>
+<v t="leo.20170629015415.4" a="E"><vh>CMS應用</vh>
+<v t="leo.20170629015415.5"><vh>CMS應用</vh></v>
 </v>
-<v t="leo.20170622230530.1" a="E"><vh>Flask</vh>
-<v t="leo.20170622230530.2"><vh>Flask</vh></v>
 </v>
-<v t="leo.20170622233713.1" a="E"><vh>Fossil</vh>
-<v t="leo.20170622233713.2"><vh>Fossil</vh></v>
+<v t="leo.20170629015424.1" a="E"><vh>CMSIMPLY</vh>
+<v t="leo.20170629015424.2"><vh>CMSIMPLY</vh></v>
 </v>
-<v t="leo.20170622233817.1" a="E"><vh>Stunnel</vh>
-<v t="leo.20170622233817.2"><vh>Stunnel</vh></v>
+<v t="leo.20170629015432.1" a="E"><vh>FOSSIL</vh>
+<v t="leo.20170629015432.2"><vh>FOSSIL</vh></v>
 </v>
-<v t="leo.20170622233820.1" a="E"><vh>ethercalc</vh>
-<v t="leo.20170622233820.2"><vh>ethercalc</vh></v>
+<v t="leo.20170629015439.1" a="E"><vh>VIRTUALBOX</vh>
+<v t="leo.20170629015439.2"><vh>VIRTUALBOX介紹</vh></v>
+</v>
+<v t="leo.20170629015446.1" a="E"><vh>Thx</vh>
+<v t="leo.20170629015446.2"><vh>thx</vh></v>
 </v>
 </v>
 </v>
@@ -69,10 +71,10 @@
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
-<v t="leo.20170427185256.1"><vh>@edit 20170421.md</vh></v>
-<v t="leo.20170427185305.1"><vh>@edit 20170426.md</vh></v>
+<v t="leo.20170427185305.1"><vh>@edit 20170421.md</vh></v>
+<v t="leo.20170427185256.1"><vh>@edit 20170426.md</vh></v>
 <v t="leo.20170427185307.1"><vh>@edit 20170427.md</vh></v>
-<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
+<v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
@@ -80,52 +82,94 @@
 </v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
+<v t="leo.20170623133430.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170623133430.3"><vh>Recovered node "cmsimply" from @clean index.html</vh>
+<v t="leo.20170623133430.4"><vh>old:cmsimply</vh></v>
+<v t="leo.20170623133430.5"><vh>new:cmsimply</vh></v>
+</v>
+</v>
+<v t="leo.20170629015300.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170629015300.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20170629015300.4"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20170629015300.5"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
-<t tx="leo.20170622222724.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
+<t tx="leo.20170623133430.2"></t>
+<t tx="leo.20170623133430.3">(uncached) leo.20170622230526.2
+Diff...
+  # CMSimply
+  
+  * Brython 是一種以 Javascript 作為底層技術的客戶端 Python3 程式環境.
+  * 使用者可以直接採用 Python3 程式語法結合 Html 5 建構多媒體網站.
+- 
++ * 設:表達結果.
++ * 計:許多的思考和討論.
 </t>
-<t tx="leo.20170622222724.2"># 這學期使用的軟體
-
-* stunnel-https proxy server
-* cmsimfly-web based content
-* fossil-source code configuration
-* ethercalc-web based spread sheet</t>
-<t tx="leo.20170622230514.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170622230514.2">#CMSimfly
-* CMSimfly是一個內容管理系統，它不需要資料庫即可運作。
-* 所有的資料都存在2個檔案裡面－ content.html（內容）和pagedata.php（頁面相關的數據）</t>
-<t tx="leo.20170622230526.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170622230526.2"># CMSimply
+<t tx="leo.20170623133430.4"># CMSimply
 
 * Brython 是一種以 Javascript 作為底層技術的客戶端 Python3 程式環境.
 * 使用者可以直接採用 Python3 程式語法結合 Html 5 建構多媒體網站.
 * 設:表達結果.
 * 計:許多的思考和討論.
 </t>
-<t tx="leo.20170622230528.1">&lt;section data-markdown&gt;
+<t tx="leo.20170623133430.5"># CMSimply
+
+* Brython 是一種以 Javascript 作為底層技術的客戶端 Python3 程式環境.
+* 使用者可以直接採用 Python3 程式語法結合 Html 5 建構多媒體網站.
+
+</t>
+<t tx="leo.20170629015300.2"></t>
+<t tx="leo.20170629015300.3">(uncached) yen.20170108171733.15
+Diff...
+- ## 楊永慶 網際內容管理課程
++ ## 2017Spring 網際內容管理課程
+  
+  ### 虎科大機械設計工程系
+  
+  &lt;small&gt;
+  Created by [springwcm_hw](https://mde2a2.kmol.info/wcmhw/index)
+  &lt;/small&gt;
+  
+  [40523108](blog/index.html)
+  [40523117](blog/index.html)&lt;br&gt;
+  [40523121](blog/index.html)
+  [40523137](blog/index.html)&lt;br&gt;
+  [40523140](blog/index.html)
+  [40523142](blog/index.html)
+</t>
+<t tx="leo.20170629015300.4">## 2017Spring 網際內容管理課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [springwcm_hw](https://mde2a2.kmol.info/wcmhw/index)
+&lt;/small&gt;
+
+[40523108](blog/index.html)
+[40523117](blog/index.html)&lt;br&gt;
+[40523121](blog/index.html)
+[40523137](blog/index.html)&lt;br&gt;
+[40523140](blog/index.html)
+[40523142](blog/index.html)
+</t>
+<t tx="leo.20170629015300.5">## 楊永慶 網際內容管理課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [springwcm_hw](https://mde2a2.kmol.info/wcmhw/index)
+&lt;/small&gt;
+
+[40523108](blog/index.html)
+[40523117](blog/index.html)&lt;br&gt;
+[40523121](blog/index.html)
+[40523137](blog/index.html)&lt;br&gt;
+[40523140](blog/index.html)
+[40523142](blog/index.html)
+</t>
+<t tx="leo.20170629015324.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -134,14 +178,21 @@
 
 						
 </t>
-<t tx="leo.20170622230528.2"># 內容管理系統CMS
+<t tx="leo.20170629015324.2">## 2017Spring 網際內容管理課程
 
-* Content
-* Management
-* System
-* 一個合作模式下，用於管理工作流程的一套制度。
-* 流行的開源CMS系統有WordPress、Joomla!、Drupal、Xoops、CmsTop等</t>
-<t tx="leo.20170622230530.1">&lt;section data-markdown&gt;
+### 施恩澤-虎科大機械設計工程系
+
+&lt;small&gt;
+Created by &lt;a href="https://github.com/s40523121"target='_blank'&gt;40523121&lt;/a&gt;
+&lt;/small&gt;
+
+
+&lt;a href="https://s40523121.github.io/2017springwcm_hw/blog/"target='_blank'&gt;Blog&lt;/a&gt;
+
+&lt;a href="https://github.com/s40523137/2017springwcm_g5"target='_blank'&gt;小組倉儲&lt;/a&gt;
+
+</t>
+<t tx="leo.20170629015345.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -150,54 +201,192 @@
 
 						
 </t>
-<t tx="leo.20170622230530.2"># Flask
+<t tx="leo.20170629015345.2"># 目錄
 
-* Flask是一個使用Python編寫的輕量級Web應用框架。
-* Web應用框架
-* 支援動態網站、網路應用程式及網路服務的開發。
+&lt;p align=left &gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://s40523121.github.io/2017springwcm_hw/#/2"&gt;機械設計是甚麼&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://s40523121.github.io/2017springwcm_hw/#/3"&gt;網路線&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://s40523121.github.io/2017springwcm_hw/#/4"&gt;CMS&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://s40523121.github.io/2017springwcm_hw/#/5"&gt;CMSIMPLY&lt;/a&gt; 
+&lt;ll&gt;&lt;a href="https://s40523121.github.io/2017springwcm_hw/#/6"&gt; FOSSIL&lt;/a&gt; 
+&lt;li&gt;&lt;a href="https://s40523121.github.io/2017springwcm_hw/#/7"&gt;VIRTUALBOX&lt;/a&gt; 
+&lt;/ul&gt;
+&lt;/p&gt;
+
 
 </t>
-<t tx="leo.20170622233713.1">&lt;section data-markdown&gt;
+<t tx="leo.20170629015356.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
+</t>
+<t tx="leo.20170629015356.2"># 機械設計是什麼？
+
+&lt;P&gt;
+&lt;FONT color=FFFF00  size=7&gt;
+&lt;MARQUEE behavior=alternate width="742" height="60"&gt;
+機械設計就是一種表達!!
+&lt;/MARQUEE&gt;
+&lt;/FONT&gt;
+&lt;/P&gt; 
+&lt;p align=left&gt;&lt;font  color="00BFFF"&gt; 機:&lt;/font&gt;精巧的配置。&lt;/p&gt;
+&lt;p align=left&gt;&lt;font  color="00BFFF"&gt; 械:&lt;/font&gt;每個設計出來的產品，都有其固定功能。&lt;/p&gt;
+&lt;p align=left&gt;&lt;font  color="00BFFF"&gt; 設:&lt;/font&gt; 表達結果。&lt;/p&gt;
+&lt;p align=left&gt;&lt;font  color="00BFFF"&gt; 計:&lt;/font&gt;詳細思慮、考量。&lt;/p&gt;
+
 
 
 						
 </t>
-<t tx="leo.20170622233713.2"># Fossil
-
-* 是一個分散式版本控制系統、缺陷跟蹤管理系統或被用來在軟體開發中使用的wiki軟體伺服器，資料不會因停電或系統崩潰而損失，因為它使用SQLite資料庫。
-* SQLite是一個用c語言所撰寫之資料庫管理系統</t>
-<t tx="leo.20170622233817.1">&lt;section data-markdown&gt;
+<t tx="leo.20170629015404.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
+</t>
+<t tx="leo.20170629015404.2"># 網路線
+
+&lt;img src="http://pic.pimg.tw/finalfrank/06247b6e58e3b3a31180cd54a55653d3.gif"width=400 height=150 &gt;&lt;img src="http://image.big5.made-in-china.com/2f0j01uvHaTwmqCMbU/%E8%B6%85%E4%BA%94%E7%B1%BB%E7%BD%91%E7%BB%9C%E7%BA%BFHSYV-5E+%E8%BE%BE%E6%A0%87%E8%B6%85%E4%BA%94%E7%B1%BB+CAT+5+UTP+Cable+%E8%BF%87%E6%B5%8B%E8%AF%95.jpg"width=400 height=150 &gt;
+&lt;p align=left&gt;&lt;font  color="FFFF00"&gt; 各顏色線用途&lt;/font&gt;&lt;/p&gt;
+&lt;hr color="red"&gt;
+&lt;p align=left&gt;&lt;font  color="FFA500"&gt; 白橙:&lt;/font&gt;傳送資料正極 &lt;font  color="F4A460"&gt; TX+&lt;/font&gt;&lt;/p&gt;
+&lt;p align=left&gt;&lt;font  color="FF8C00"&gt; 橙:&lt;/font&gt;傳送資料負極 &lt;font  color="F4A460"&gt; TX-&lt;/font&gt;&lt;/p&gt;
+&lt;p align=left&gt;&lt;font  color="ADFF2F"&gt; 白綠:&lt;/font&gt;接收資料正極 &lt;font  color="F4A460"&gt; RX+&lt;/font&gt;&lt;/p&gt;
+&lt;p align=left&gt;&lt;font  color="008000"&gt; 綠:&lt;/font&gt;接收資料負極 &lt;font  color="F4A460"&gt; RX-&lt;/font&gt;&lt;/p&gt;
+
 
 
 						
 </t>
-<t tx="leo.20170622233817.2"># Stunnel
-
-* 是一個自由的跨平台軟體，用於提供全局的TLS/SSL服務。
-* 傳輸層安全協議 Transport Layer Security，TLS
-* 其前身安全通訊協定 Secure Sockets Layer，SSL
-* 一種安全協定，目的是為網際網路通訊，提供安全及資料完整性保障。
-</t>
-<t tx="leo.20170622233820.1">&lt;section data-markdown&gt;
+<t tx="leo.20170629015415.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170629015415.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
+</t>
+<t tx="leo.20170629015415.3">#&lt;H2&gt;CMS-網站內容管理系統&lt;/H&gt;
+
+&lt;p align=left&gt;&lt;font  color="FFFF00"&gt; CMS介紹&lt;/font&gt;&lt;/p&gt;
+&lt;hr color="red"&gt;
+&lt;p align=left&gt;所有能夠讓使用者自行更新的程式語言/程式系統都可稱為&lt;font  color="F0E68C"&gt; CMS(網站內容管理系統)&lt;/font&gt;，並沒有一個既定的模式規限開發者或用者。最常見的是所謂&lt;font  color="BA55D3"&gt;『後台』&lt;/font&gt;設計，其實是一個線上更新資料的程式/系統，可以是:
+&lt;ul&gt;
+&lt;li&gt;由程式開發者專門為閣下的網頁設計而設所製作的程式。
+&lt;li&gt;由網絡共享資源下載的免費程式。
+&lt;li&gt;由伺服器供應商提供連接網存服務的程式/系統。
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+
 
 
 						
 </t>
-<t tx="leo.20170622233820.2"># ethercalc
+<t tx="leo.20170629015415.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629015415.5">&lt;p align=left&gt;&lt;font  color="FFFF00"&gt; CMS應用&lt;/font&gt;&lt;/p&gt;
+&lt;hr color="red"&gt;
+ &lt;p align=left &gt;目前台灣比較常見到的&lt;font color="F0E68C"&gt; CMS&lt;/font&gt;有&lt;font color="87CEEB"&gt; Moodle、Drupal 、Xoops、Joomla、Wordpress...&lt;/font&gt;等。依功能性來區分&lt;font color="FFB6C1"&gt; Moodle&lt;/font&gt;比較偏向課程管理系統，主要用在像是學習網之類的學習網站；&lt;font color="00FF7F	"&gt; Drupal&lt;/font&gt;本身有提供許多的模組&lt;font color="FFB6C1"&gt; (Moodle)&lt;/font&gt;(配合這些&lt;font color="00FF7F	"&gt; Drupal&lt;/font&gt;模組可以架出非常多類型的網站。&lt;/p&gt;
 
-* 可在網路上建立表個，讓多人編輯。打成績時所用。
+
+						
+</t>
+<t tx="leo.20170629015424.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629015424.2"># CMSIMPLY
+
+&lt;p align=left&gt;&lt;font  color="FFFF00"&gt; CMSimply介紹&lt;/font&gt;&lt;/p&gt;
+&lt;hr color="red"&gt;
+ &lt;p align=left&gt;&lt;font  color="FFC0CB"&gt; CMSimply&lt;/font&gt;是一個基於雲端的內容管理系統，將網站內容保存到名為&lt;font  color="00FF00"&gt; content.htm&lt;/font&gt;的文件中，因此不需要數資料庫。&lt;/p&gt;
+
+&lt;p align=left&gt;&lt;font  color="FFFF00"&gt; CMSimply特色&lt;/font&gt;&lt;/p&gt;
+&lt;hr color="red"&gt;
+ &lt;p align=left&gt;&lt;font  color="FFC0CB"&gt; CMSimply&lt;/font&gt;是由&lt;font  color="00FFFF"&gt; Python 3 &lt;/font&gt; 和&lt;font  color="00FFFF"&gt; CherryPy &lt;/font&gt;程式語言寫成的，可以在網站中建立很多子目錄，&lt;font  color="FFC0CB"&gt; CMSimply&lt;/font&gt;是使用&lt;font  color="FF69B4"&gt; html h1.h2&lt;/font&gt;和&lt;font  color="FF69B4"&gt;h3&lt;/font&gt;標籤來分離頁面。要注意的是由於標題用於標識每個唯一頁面，所以不能在CMSimply中使用重複的標題。 &lt;/p&gt;
+ CMSimply原始碼位置&lt;a href="https://github.com/chiamingyen/cmsimply"target='_blank'&gt;CMSimply&lt;/a&gt;
+
+
+
+
+
+
+
+						
+</t>
+<t tx="leo.20170629015432.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629015432.2"># FOSSIL
+
+&lt;p align=left&gt;&lt;font  color="FFFF00"&gt; FOSSIL特色&lt;/font&gt;&lt;/p&gt;
+&lt;hr color="red"&gt;
+&lt;p align=left&gt;一般人對於軟體本身的使用需求，多半是希望操作越簡單越好，並有相當程度的穩定性與可靠性。而&lt;font  color="ADFF2F"&gt; Fossil&lt;/font&gt;所強調的兩大特點:
+&lt;p align=left &gt;
+&lt;ul&gt;
+&lt;li&gt;即使沒有使用版本控制軟體的經驗，也能在閱讀&lt;font  color="ADFF2F"&gt; Fossil&lt;/font&gt;提供的簡單文件之後立即上手。
+&lt;li&gt;&lt;font  color="ADFF2F"&gt; Fossil&lt;/font&gt;採用 &lt;font  color="FFA500	"&gt; SQLite&lt;/font&gt;資料庫作為資料儲存的平台，再加上永久性的檔案結構，所以即使在使用中遭遇系統不正常斷電或主機元件毀損等問題，資料也不會損失。
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+						
+</t>
+<t tx="leo.20170629015439.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629015439.2"># VIRTUALBOX
+
+&lt;p align=left&gt;&lt;font  color="FFFF00"&gt; VIRTUALBOX介紹&lt;/font&gt;&lt;/p&gt;
+&lt;hr color="red"&gt;
+&lt;p align=left&gt;主要是創建一個模擬的PC個人電腦的硬體環境， 讓我們可以在虛擬的電腦硬體中&lt;font color="ADFF2F"&gt; 安裝作業系統、 測試軟體&lt;/font&gt;安裝作或&lt;font color="9370DB"&gt; 病毒&lt;/font&gt;等， 透過&lt;font color="00BFFF"&gt; VirtualBox&lt;/font&gt;安裝好的作業系統可以跟你現在的電腦系統同時運作， 而且兩個系統的資料與程式不會互相干擾或影響， 算是一個&lt;font color="FA8072"&gt; 完全獨立&lt;/font&gt;的作業環境讓我們測試各種軟體或功能。
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+						
+</t>
+<t tx="leo.20170629015446.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629015446.2"># &lt;img src='http://www.the-numbers.com/video/This-Is-The-End/This-Is-The-End-poster.jpg'&gt;
+
+
+
+						
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
@@ -277,7 +466,7 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="yen.20170108171622.1">2017 Spring WCM 機械設計工程系網際內容管理
 
-倉儲位置: https://github.com/s40523121/2017springwcm_hw
+倉儲位置: https://github.com/s40523137/2017springwcm_hw
 
 每一協同成員都應該要在 users 目錄下有一個 Leo 檔案
 
@@ -355,45 +544,6 @@ vertical: body pane on the botton</t>
 @others
 &lt;/div&gt;
 
-</t>
-<t tx="yen.20170108171733.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20170108171733.15">## 2017Spring 網際內容管理課程
-
-### 虎科大機械設計工程系
-
-&lt;small&gt;
-Created by [springwcm_hw](https://mde2a2.kmol.info/wcmg5/index)
-&lt;/small&gt;
-
-[40523108](blog/index.html)
-[40523117](blog/index.html)&lt;br&gt;
-[40523121](blog/index.html)
-[40523137](blog/index.html)&lt;br&gt;
-[40523140](blog/index.html)
-[40523142](blog/index.html)</t>
-<t tx="yen.20170108171733.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20170108171733.17"># 機械設計
-
-* 機:精巧配置之互動元件.
-* 械:配置之元件所產生的特定功能,解決問題.
-* 設:表達結果.
-* 計:許多的思考和討論.
 </t>
 <t tx="yen.20170108171733.2">@language python
 import os
