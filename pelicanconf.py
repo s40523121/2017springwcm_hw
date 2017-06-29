@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = '40523121'
+AUTHOR = '40523137'
 SITENAME = '2017Spring 網際內容管理 (Springwcm_hw)'
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
