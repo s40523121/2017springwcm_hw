@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>2017 網際內容管理 - 2017Spring 網際內容管理 (Springwcm_hw)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./2017-wang-ji-nei-rong-guan-li.html">
+
+        <meta name="author" content="楊永慶" />
+        <meta name="keywords" content="Virtualbox 網路相關設定" />
+        <meta name="description" content="使用VirtualBox之相關設定介紹." />
+
+        <meta property="og:site_name" content="2017Spring 網際內容管理 (Springwcm_hw)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="2017 網際內容管理"/>
+        <meta property="og:url" content="./2017-wang-ji-nei-rong-guan-li.html"/>
+        <meta property="og:description" content="使用VirtualBox之相關設定介紹."/>
+        <meta property="article:published_time" content="2017-04-21" />
+            <meta property="article:section" content="Misc" />
+            <meta property="article:tag" content="Virtualbox 網路相關設定" />
+            <meta property="article:author" content="楊永慶" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 網際內容管理 (Springwcm_hw) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 網際內容管理 (Springwcm_hw)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/misc.html">Misc</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./2017-wang-ji-nei-rong-guan-li.html"
+                       rel="bookmark"
+                       title="Permalink to 2017 網際內容管理">
+                        2017 網際內容管理
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-04-21T12:00:00+08:00"> 周五 21 四月 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/yang-yong-qing.html"><i class="fa fa-user"></i> 楊永慶</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/virtualbox-wang-lu-xiang-guan-she-ding.html">Virtualbox 網路相關設定</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p><font size="3">使用VirtualBox之相關設定介紹.</font></p>
+
+
+<p>VirtualBox是一個虛擬電腦軟體,其他還有Vmware也有類似的功能.<br>使用此類型之軟體,主要目的是測試一些軟體與病毒,且讓其不會影響到原本的電腦系統.
+使用的第一步就是先安裝好想要使用的作業系統,只要找的到載點,想用什麼都可以,只是速度不會比在原本的系統快.</p>
+<p>下載好Virtualbox軟體和想使用的作業系統後,即可開始進行設定.</p>
+<p>首先按下新增<br>
+<img src="http://0.blog.xuite.net/0/9/c/9/17510967/blog_815913/txt/66578586/177.png"></p>
+<p>選許想使用之作業系統<br>
+<img src="https://i1.wp.com/future-vr.com/wp-content/uploads/2015/10/21.jpg"></p>
+<p>調整記憶體之大小,看使用的作業系統而定.基本越大越好.<br>
+<img src="http://3.bp.blogspot.com/-Jo9HbCuvhJU/UWZvKudcMgI/AAAAAAAAAMk/vt-IlJ2UbmI/s1600/VirtualBox-setting-3.png"></p>
+<p>設定虛擬硬碟,虛擬硬碟是指用通過軟體技術，將物理記憶體進行分割，將一部分記憶體通過虛擬技術轉變為硬碟以較大幅度提升電腦數據讀取速度和保護硬碟<br><img src="https://img.sofree.cc/VirtualBox_113E8/virtualbox_14.png"></p>
+<p>映像檔類型有兩種可以選擇,「動態延伸存放」「固定大小存放」,差別在於一開始是否先占用硬碟空間,選擇動態擴充映像檔,較不會造成空間浪費.<br>
+<img src="https://img.sofree.cc/VirtualBox_113E8/virtualbox_16.png"></p>
+<p>調整虛擬硬碟大小<br><img src="https://img.sofree.cc/VirtualBox_113E8/virtualbox_17.png"></p>
+<p>最後按下完成就結束基本設定了.</p>
+<p>在設定值的存放裝置裡掛載需使用之作業系統<img src="https://img.sofree.cc/VirtualBox_113E8/virtualbox_24.png"></p>
+<p>按下啟動後就會開啟了.<br>以下為實際示範影片<br></p>
+<iframe src="https://player.vimeo.com/video/191022142" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/191022142">s40523137使用virtualbox</a> from <a href="https://vimeo.com/user58917993">s40523137</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p>接下來設定最重要的網路部分.</p>
+<p>一台虛擬電腦最多可以設置4張網路介面卡,四種各可使用不同的模式來使用.
+<img src="http://ithelp.ithome.com.tw/upload/images/20121026/20121026174118508a5abe5d59d_resize.jpg"></p>
+<p>NAT網路:NAT 其實是 Network Address Translation 的簡寫，字面上的意思是『網路位址的傳送』.<br>他主要的功能就是在提供內部私有網路的電腦之頻寬分享.也就是將虛擬IP轉成固定IP,這樣才有辦法連線到外部,其功能很類似IP分享器.
+在VirtualBox使用該功能,則是將虛擬電腦拿到IP後,NAT透過host端進行對外連結,基本上在host端所執行的網路行為,在虛擬電腦也可執行.<br>
+<img src="http://ithelp.ithome.com.tw/upload/images/20121026/20121026174743508a5c3f36f96_resize.jpg"></p>
+<p>橋接介面卡:虛擬電腦直接連結到實體網路卡,設定網路時選擇「橋接介面卡」,並選取實體網路卡.
+虛擬機有獨立的IP,就像同處一個區域網中的其他的主機一樣.
+因此,可以在虛擬機中，找到類似於主機（XP,Win7）中看到的 網上鄰居一樣的效果,可以看到其他各個同局域網內的主機,當然也包括此台Host主機所對應的虛擬機.所以,只要本身主機共享出來了文件夾了,那麼此時在虛擬機中肯定也是可以訪問到該共享文件夾的.</p>
+<p>內部網路:可以讓不同Guest OS 互通,如同連接到同一個Hub,無法存取外部網路安全速度比Bridged Networking 有效,直接傳送,不需要透過Host OS的網路堆疊IP 需要手動指定.</p>
+<p>「僅限主機」介面卡:不同Guest OS 可以互通，可以跟Host OS 互通混合Bridged 與Internal Networking,在Host OS 建立一個軟體網路卡,如同虛擬機器連線到虛擬網路,只可以讓Host OS 與Guest OS 互通Host-Only Networking 需使用DHCP,不可以指定IP.在VirtualBox 檔案/喜好設定/網路/VirtualBox Host-Only Ethernet Adapter中可以設定DHCP Server。使Host OS 與Guest OS 擁有相同網段之IPAddress以互通該DHCP Server 為獨立模式,只有在此模式才可以關閉,並指定IP 範圍.</p>
+<p>通用驅動程式:用於選擇網卡驅動.該驅動,是virtualbox內部自帶的,或者是通過extension pack添加進來的.</p>
+<p>參考資料:https://sofree.cc/virtualbox-os/<br>http://ithelp.ithome.com.tw/articles/10107536<br>http://ithelp.ithome.com.tw/articles/10108486<br>http://icodding.blogspot.tw/2015/07/virtualbox.html<br>http://wiki.mbalib.com/zh-tw/%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98<br>http://linux.vbird.org/linux_server/0250simple_firewall/0320nat.php<br>http://www.gamez.com.tw/thread-449368-1-1.html<br>https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E4%B8%BB%E6%9C%BA%E8%AE%BE%E7%BD%AE%E5%8D%8F%E8%AE%AE<br>https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2<br>https://www.twbsd.org/cht/book/ch12.htm<br></p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./wang-lu-xian-zhi-zuo.html">
+                            網路線製作
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./he-wei-ji-jie-she-ji.html">
+                            何謂機械設計
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2017-wang-ji-nei-rong-guan-li.html">
+                            2017 網際內容管理
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/misc.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Misc
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 40523121
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
